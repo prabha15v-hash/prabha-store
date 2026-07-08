@@ -9,6 +9,8 @@ h3{
 body{
     background-image:url('beach1.jpg');
     background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: cover;
     animation-name: myAnimation;
     animation-duration: 4s;
@@ -19,13 +21,14 @@ p{
 }
 #home{
     margin-right:100%;
+    padding-right:10px;
 }
 button{
     background-color:black;
     color:azure;
-    margin-bottom: 20px;
-    padding: 10px;
-    font-size:30px;
+    margin-bottom: 50px;
+    padding: 30px;
+    font-size:60px;
     
 }
 #c{
@@ -47,7 +50,7 @@ button{
 }
 @keyframes  myAnimation{
     from{background-image:url('beach1.jpg') ;}
-    to{background-image:ulr('nature1.jpg');}
+    to{background-image:url('nature1.jpg');}
 }
 .fa-youtube{
     color:red;
@@ -72,9 +75,12 @@ button{
 .fa-music{
     color: navy;
 }
-.face-smile{
+.fa-face-smile{
     color:yellow;
 }
 .fa-bus-side{
     color:violet;
+}
+.fa-house{
+    color:darkorchid;
 }
