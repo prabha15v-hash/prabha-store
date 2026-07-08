@@ -8,9 +8,7 @@ h3{
 }
 body{
     background-image:url('beach1.jpg');
-    background-attachment: fixed;
     background-position: center;
-    background-repeat: no repeat;
     background-size: cover;
     animation-name: myAnimation;
     animation-duration: 4s;
@@ -27,7 +25,7 @@ button{
     color:azure;
     margin-bottom: 20px;
     padding: 10px;
-    font-size:20px;
+    font-size:30px;
     
 }
 #c{
@@ -50,4 +48,33 @@ button{
 @keyframes  myAnimation{
     from{background-image:url('beach1.jpg') ;}
     to{background-image:ulr('nature1.jpg');}
+}
+.fa-youtube{
+    color:red;
+}
+.fa-shop{
+    color:aqua;
+}
+.fa-guitar{
+    color:crimson;
+
+}
+.fa-cart-shopping{
+    color:blue;
+}
+.fa-gamepad{
+    color: lawngreen;
+
+}
+.fa-chess{
+    color:white;
+}
+.fa-music{
+    color: navy;
+}
+.face-smile{
+    color:yellow;
+}
+.fa-bus-side{
+    color:violet;
 }
