@@ -1,13 +1,22 @@
 h1{
-    color:red;
-    font-size: 70px;
+    color:aquamarine;
     text-align: center;
-    font-style:italic;
+    font-style:oblique;
+    text-shadow: 7px 7px 5px blue;
+    font-size:70px;
+    animation-name: my;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;  
+}
+@keyframes my{
+    from{text-shadow:7px 7px 5px blue;}
+    to{text-shadow:7px 7px 5px red;}
 }
 h2{
     color:navy;
     font-size:60px;
     text-align: center;
+    font-size:italic;
 }
 body{
     background-image:url('beach1.jpg');
