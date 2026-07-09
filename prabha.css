@@ -3,7 +3,7 @@ h1{
     text-align: center;
     font-style:oblique;
     text-shadow: 7px 7px 5px blue;
-    font-size:70px;
+    font-size:100px;
     animation-name: my;
     animation-duration: 2s;
     animation-iteration-count: infinite;  
@@ -14,7 +14,7 @@ h1{
 }
 h2{
     color:navy;
-    font-size:60px;
+    font-size:90px;
     text-align: center;
     font-size:italic;
 }
