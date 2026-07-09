@@ -14,7 +14,7 @@ h1{
 }
 h2{
     color:navy;
-    font-size:90px;
+    font-size:70px;
     text-align: center;
     font-size:italic;
 }
@@ -59,7 +59,7 @@ button{
      margin-left:100%;
      background-color: white;
      color:black;
-
+      font-position:top;
 }
 @keyframes  myAnimation{
     from{background-image:url('beach1.jpg') ;}
