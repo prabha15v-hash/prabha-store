@@ -59,8 +59,9 @@ button{
      margin-left:100%;
      background-color: white;
      color:black;
-    top:100%;
-    left:100%;
+     padding-right:20px;
+     top:100%;
+     left:100%;
 }
 @keyframes  myAnimation{
     from{background-image:url('beach1.jpg') ;}
