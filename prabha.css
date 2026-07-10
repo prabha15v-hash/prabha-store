@@ -104,8 +104,14 @@ button{
 }
 .fa-share{
     font-size:90px;
+    animation:sharpblink 2s infinite;
 }
 .fa-calculator{
     font-size:80px;
     color:blue;
+}
+@keyframes sharpblink
+{
+  0%, 49% { opacity: 1; }
+  50%, 100% { opacity: 0; }
 }
