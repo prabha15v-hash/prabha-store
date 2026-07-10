@@ -104,7 +104,6 @@ button{
 }
 .fa-share{
     font-size:90px;
-    animation:sharpblink 2s infinite;
 }
 .fa-calculator{
     font-size:80px;
@@ -114,4 +113,19 @@ button{
 {
   0%, 49% { opacity: 1; }
   50%, 100% { opacity: 0; }
+}
+#a{
+    animation:sharpblick 1s linear infinite;
+}
+#b{
+    animation:sharpblick 2s linear infinite;
+}
+#c{
+    animation:sharpblick 1s linear infinite;
+}
+#d{
+    animation:sharpblick 2s linear infinite;
+}
+#e{
+    animation:sharpblick 1s linear infinite;
 }
