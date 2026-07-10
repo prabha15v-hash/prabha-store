@@ -114,35 +114,6 @@ button{
   0%, 49% { opacity: 1; }
   50%, 100% { opacity: 0; }
 }
-#a{
-    animation:sharpblick 1s linear infinite;
-}
-#b{
-    animation:sharpblick1 2s linear infinite;
-}
-#c{
-    animation:sharpblick2 1s linear infinite;
-}
-#d{
-    animation:sharpblick3 2s linear infinite;
-}
-#e{
-    animation:sharpblick4 1s linear infinite;
-}
-@keyframes sharpblink1
-{
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
-}@keyframes sharpblink2
-{
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
-}@keyframes sharpblink3
-{
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
-}@keyframes sharpblink4
-{
-  0%, 49% { opacity: 1; }
-  50%, 100% { opacity: 0; }
-}
+ .fa-share{
+     animation:sharpblink 1s linear infinite;
+ }
