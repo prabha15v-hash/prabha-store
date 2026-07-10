@@ -103,5 +103,9 @@ button{
     bottom:100%;
 }
 .fa-share{
-    font-size:100px;
+    font-size:90px;
+}
+.fa-calculator{
+    font-size:80px;
+    color:blue;
 }
