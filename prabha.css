@@ -5,7 +5,7 @@ h1{
   font-weight: 400;
   font-style: normal;
     text-shadow: 7px 7px 5px blue;
-    font-size:100px;
+    font-size:200px;
     animation-name: my;
     animation-duration: 2s;
     animation-iteration-count: infinite;  
