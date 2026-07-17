@@ -62,7 +62,7 @@ button{
      background-color: white;
      color:black;
      padding-right:20px;
-     top:100%;
+     top:1000%;
      left:100%;
 }
 @keyframes  myAnimation{
